@@ -66,102 +66,102 @@ include CMakeFiles/Assignment1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Assignment1.dir/flags.make
 
-CMakeFiles/Assignment1.dir/main.cpp.o: CMakeFiles/Assignment1.dir/flags.make
-CMakeFiles/Assignment1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omri/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Assignment1.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment1.dir/main.cpp.o -c /home/omri/CLionProjects/Assignment1/main.cpp
+CMakeFiles/Assignment1.dir/src/main.cpp.o: CMakeFiles/Assignment1.dir/flags.make
+CMakeFiles/Assignment1.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omri/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Assignment1.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment1.dir/src/main.cpp.o -c /home/omri/CLionProjects/Assignment1/src/main.cpp
 
-CMakeFiles/Assignment1.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment1.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omri/CLionProjects/Assignment1/main.cpp > CMakeFiles/Assignment1.dir/main.cpp.i
+CMakeFiles/Assignment1.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment1.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omri/CLionProjects/Assignment1/src/main.cpp > CMakeFiles/Assignment1.dir/src/main.cpp.i
 
-CMakeFiles/Assignment1.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment1.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omri/CLionProjects/Assignment1/main.cpp -o CMakeFiles/Assignment1.dir/main.cpp.s
+CMakeFiles/Assignment1.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment1.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omri/CLionProjects/Assignment1/src/main.cpp -o CMakeFiles/Assignment1.dir/src/main.cpp.s
 
-CMakeFiles/Assignment1.dir/Studio.cpp.o: CMakeFiles/Assignment1.dir/flags.make
-CMakeFiles/Assignment1.dir/Studio.cpp.o: ../Studio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omri/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Assignment1.dir/Studio.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment1.dir/Studio.cpp.o -c /home/omri/CLionProjects/Assignment1/Studio.cpp
+CMakeFiles/Assignment1.dir/src/Studio.cpp.o: CMakeFiles/Assignment1.dir/flags.make
+CMakeFiles/Assignment1.dir/src/Studio.cpp.o: ../src/Studio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omri/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Assignment1.dir/src/Studio.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment1.dir/src/Studio.cpp.o -c /home/omri/CLionProjects/Assignment1/src/Studio.cpp
 
-CMakeFiles/Assignment1.dir/Studio.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment1.dir/Studio.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omri/CLionProjects/Assignment1/Studio.cpp > CMakeFiles/Assignment1.dir/Studio.cpp.i
+CMakeFiles/Assignment1.dir/src/Studio.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment1.dir/src/Studio.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omri/CLionProjects/Assignment1/src/Studio.cpp > CMakeFiles/Assignment1.dir/src/Studio.cpp.i
 
-CMakeFiles/Assignment1.dir/Studio.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment1.dir/Studio.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omri/CLionProjects/Assignment1/Studio.cpp -o CMakeFiles/Assignment1.dir/Studio.cpp.s
+CMakeFiles/Assignment1.dir/src/Studio.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment1.dir/src/Studio.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omri/CLionProjects/Assignment1/src/Studio.cpp -o CMakeFiles/Assignment1.dir/src/Studio.cpp.s
 
-CMakeFiles/Assignment1.dir/Trainer.cpp.o: CMakeFiles/Assignment1.dir/flags.make
-CMakeFiles/Assignment1.dir/Trainer.cpp.o: ../Trainer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omri/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Assignment1.dir/Trainer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment1.dir/Trainer.cpp.o -c /home/omri/CLionProjects/Assignment1/Trainer.cpp
+CMakeFiles/Assignment1.dir/src/Trainer.cpp.o: CMakeFiles/Assignment1.dir/flags.make
+CMakeFiles/Assignment1.dir/src/Trainer.cpp.o: ../src/Trainer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omri/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Assignment1.dir/src/Trainer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment1.dir/src/Trainer.cpp.o -c /home/omri/CLionProjects/Assignment1/src/Trainer.cpp
 
-CMakeFiles/Assignment1.dir/Trainer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment1.dir/Trainer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omri/CLionProjects/Assignment1/Trainer.cpp > CMakeFiles/Assignment1.dir/Trainer.cpp.i
+CMakeFiles/Assignment1.dir/src/Trainer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment1.dir/src/Trainer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omri/CLionProjects/Assignment1/src/Trainer.cpp > CMakeFiles/Assignment1.dir/src/Trainer.cpp.i
 
-CMakeFiles/Assignment1.dir/Trainer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment1.dir/Trainer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omri/CLionProjects/Assignment1/Trainer.cpp -o CMakeFiles/Assignment1.dir/Trainer.cpp.s
+CMakeFiles/Assignment1.dir/src/Trainer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment1.dir/src/Trainer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omri/CLionProjects/Assignment1/src/Trainer.cpp -o CMakeFiles/Assignment1.dir/src/Trainer.cpp.s
 
-CMakeFiles/Assignment1.dir/Workout.cpp.o: CMakeFiles/Assignment1.dir/flags.make
-CMakeFiles/Assignment1.dir/Workout.cpp.o: ../Workout.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omri/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Assignment1.dir/Workout.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment1.dir/Workout.cpp.o -c /home/omri/CLionProjects/Assignment1/Workout.cpp
+CMakeFiles/Assignment1.dir/src/Workout.cpp.o: CMakeFiles/Assignment1.dir/flags.make
+CMakeFiles/Assignment1.dir/src/Workout.cpp.o: ../src/Workout.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omri/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Assignment1.dir/src/Workout.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment1.dir/src/Workout.cpp.o -c /home/omri/CLionProjects/Assignment1/src/Workout.cpp
 
-CMakeFiles/Assignment1.dir/Workout.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment1.dir/Workout.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omri/CLionProjects/Assignment1/Workout.cpp > CMakeFiles/Assignment1.dir/Workout.cpp.i
+CMakeFiles/Assignment1.dir/src/Workout.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment1.dir/src/Workout.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omri/CLionProjects/Assignment1/src/Workout.cpp > CMakeFiles/Assignment1.dir/src/Workout.cpp.i
 
-CMakeFiles/Assignment1.dir/Workout.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment1.dir/Workout.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omri/CLionProjects/Assignment1/Workout.cpp -o CMakeFiles/Assignment1.dir/Workout.cpp.s
+CMakeFiles/Assignment1.dir/src/Workout.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment1.dir/src/Workout.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omri/CLionProjects/Assignment1/src/Workout.cpp -o CMakeFiles/Assignment1.dir/src/Workout.cpp.s
 
-CMakeFiles/Assignment1.dir/Customer.cpp.o: CMakeFiles/Assignment1.dir/flags.make
-CMakeFiles/Assignment1.dir/Customer.cpp.o: ../Customer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omri/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Assignment1.dir/Customer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment1.dir/Customer.cpp.o -c /home/omri/CLionProjects/Assignment1/Customer.cpp
+CMakeFiles/Assignment1.dir/src/Customer.cpp.o: CMakeFiles/Assignment1.dir/flags.make
+CMakeFiles/Assignment1.dir/src/Customer.cpp.o: ../src/Customer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omri/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Assignment1.dir/src/Customer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment1.dir/src/Customer.cpp.o -c /home/omri/CLionProjects/Assignment1/src/Customer.cpp
 
-CMakeFiles/Assignment1.dir/Customer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment1.dir/Customer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omri/CLionProjects/Assignment1/Customer.cpp > CMakeFiles/Assignment1.dir/Customer.cpp.i
+CMakeFiles/Assignment1.dir/src/Customer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment1.dir/src/Customer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omri/CLionProjects/Assignment1/src/Customer.cpp > CMakeFiles/Assignment1.dir/src/Customer.cpp.i
 
-CMakeFiles/Assignment1.dir/Customer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment1.dir/Customer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omri/CLionProjects/Assignment1/Customer.cpp -o CMakeFiles/Assignment1.dir/Customer.cpp.s
+CMakeFiles/Assignment1.dir/src/Customer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment1.dir/src/Customer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omri/CLionProjects/Assignment1/src/Customer.cpp -o CMakeFiles/Assignment1.dir/src/Customer.cpp.s
 
-CMakeFiles/Assignment1.dir/Action.cpp.o: CMakeFiles/Assignment1.dir/flags.make
-CMakeFiles/Assignment1.dir/Action.cpp.o: ../Action.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omri/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Assignment1.dir/Action.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment1.dir/Action.cpp.o -c /home/omri/CLionProjects/Assignment1/Action.cpp
+CMakeFiles/Assignment1.dir/src/Action.cpp.o: CMakeFiles/Assignment1.dir/flags.make
+CMakeFiles/Assignment1.dir/src/Action.cpp.o: ../src/Action.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omri/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Assignment1.dir/src/Action.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment1.dir/src/Action.cpp.o -c /home/omri/CLionProjects/Assignment1/src/Action.cpp
 
-CMakeFiles/Assignment1.dir/Action.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment1.dir/Action.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omri/CLionProjects/Assignment1/Action.cpp > CMakeFiles/Assignment1.dir/Action.cpp.i
+CMakeFiles/Assignment1.dir/src/Action.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment1.dir/src/Action.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omri/CLionProjects/Assignment1/src/Action.cpp > CMakeFiles/Assignment1.dir/src/Action.cpp.i
 
-CMakeFiles/Assignment1.dir/Action.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment1.dir/Action.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omri/CLionProjects/Assignment1/Action.cpp -o CMakeFiles/Assignment1.dir/Action.cpp.s
+CMakeFiles/Assignment1.dir/src/Action.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment1.dir/src/Action.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omri/CLionProjects/Assignment1/src/Action.cpp -o CMakeFiles/Assignment1.dir/src/Action.cpp.s
 
 # Object files for target Assignment1
 Assignment1_OBJECTS = \
-"CMakeFiles/Assignment1.dir/main.cpp.o" \
-"CMakeFiles/Assignment1.dir/Studio.cpp.o" \
-"CMakeFiles/Assignment1.dir/Trainer.cpp.o" \
-"CMakeFiles/Assignment1.dir/Workout.cpp.o" \
-"CMakeFiles/Assignment1.dir/Customer.cpp.o" \
-"CMakeFiles/Assignment1.dir/Action.cpp.o"
+"CMakeFiles/Assignment1.dir/src/main.cpp.o" \
+"CMakeFiles/Assignment1.dir/src/Studio.cpp.o" \
+"CMakeFiles/Assignment1.dir/src/Trainer.cpp.o" \
+"CMakeFiles/Assignment1.dir/src/Workout.cpp.o" \
+"CMakeFiles/Assignment1.dir/src/Customer.cpp.o" \
+"CMakeFiles/Assignment1.dir/src/Action.cpp.o"
 
 # External object files for target Assignment1
 Assignment1_EXTERNAL_OBJECTS =
 
-Assignment1: CMakeFiles/Assignment1.dir/main.cpp.o
-Assignment1: CMakeFiles/Assignment1.dir/Studio.cpp.o
-Assignment1: CMakeFiles/Assignment1.dir/Trainer.cpp.o
-Assignment1: CMakeFiles/Assignment1.dir/Workout.cpp.o
-Assignment1: CMakeFiles/Assignment1.dir/Customer.cpp.o
-Assignment1: CMakeFiles/Assignment1.dir/Action.cpp.o
+Assignment1: CMakeFiles/Assignment1.dir/src/main.cpp.o
+Assignment1: CMakeFiles/Assignment1.dir/src/Studio.cpp.o
+Assignment1: CMakeFiles/Assignment1.dir/src/Trainer.cpp.o
+Assignment1: CMakeFiles/Assignment1.dir/src/Workout.cpp.o
+Assignment1: CMakeFiles/Assignment1.dir/src/Customer.cpp.o
+Assignment1: CMakeFiles/Assignment1.dir/src/Action.cpp.o
 Assignment1: CMakeFiles/Assignment1.dir/build.make
 Assignment1: CMakeFiles/Assignment1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/omri/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Assignment1"

@@ -3,4 +3,4 @@ project(Assignment1)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Assignment1 main.cpp Studio.cpp Trainer.cpp Workout.cpp Customer.cpp Action.cpp)
+add_executable(Assignment1 src/main.cpp src/Studio.cpp src/Trainer.cpp src/Workout.cpp src/Customer.cpp src/Action.cpp)

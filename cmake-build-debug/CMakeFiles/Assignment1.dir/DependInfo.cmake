@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/omri/CLionProjects/Assignment1/Action.cpp" "/home/omri/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/Action.cpp.o"
-  "/home/omri/CLionProjects/Assignment1/Customer.cpp" "/home/omri/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/Customer.cpp.o"
-  "/home/omri/CLionProjects/Assignment1/Studio.cpp" "/home/omri/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/Studio.cpp.o"
-  "/home/omri/CLionProjects/Assignment1/Trainer.cpp" "/home/omri/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/Trainer.cpp.o"
-  "/home/omri/CLionProjects/Assignment1/Workout.cpp" "/home/omri/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/Workout.cpp.o"
-  "/home/omri/CLionProjects/Assignment1/main.cpp" "/home/omri/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/main.cpp.o"
+  "/home/omri/CLionProjects/Assignment1/src/Action.cpp" "/home/omri/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/src/Action.cpp.o"
+  "/home/omri/CLionProjects/Assignment1/src/Customer.cpp" "/home/omri/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/src/Customer.cpp.o"
+  "/home/omri/CLionProjects/Assignment1/src/Studio.cpp" "/home/omri/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/src/Studio.cpp.o"
+  "/home/omri/CLionProjects/Assignment1/src/Trainer.cpp" "/home/omri/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/src/Trainer.cpp.o"
+  "/home/omri/CLionProjects/Assignment1/src/Workout.cpp" "/home/omri/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/src/Workout.cpp.o"
+  "/home/omri/CLionProjects/Assignment1/src/main.cpp" "/home/omri/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/Assignment1.dir/main.cpp.o CMakeFiles/Assignment1.dir/Studio.cpp.o CMakeFiles/Assignment1.dir/Trainer.cpp.o CMakeFiles/Assignment1.dir/Workout.cpp.o CMakeFiles/Assignment1.dir/Customer.cpp.o CMakeFiles/Assignment1.dir/Action.cpp.o -o Assignment1 
+/usr/bin/c++ -g CMakeFiles/Assignment1.dir/src/main.cpp.o CMakeFiles/Assignment1.dir/src/Studio.cpp.o CMakeFiles/Assignment1.dir/src/Trainer.cpp.o CMakeFiles/Assignment1.dir/src/Workout.cpp.o CMakeFiles/Assignment1.dir/src/Customer.cpp.o CMakeFiles/Assignment1.dir/src/Action.cpp.o -o Assignment1 

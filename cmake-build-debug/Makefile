@@ -129,149 +129,149 @@ Assignment1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/build
 .PHONY : Assignment1/fast
 
-Action.o: Action.cpp.o
-.PHONY : Action.o
+src/Action.o: src/Action.cpp.o
+.PHONY : src/Action.o
 
 # target to build an object file
-Action.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/Action.cpp.o
-.PHONY : Action.cpp.o
+src/Action.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/src/Action.cpp.o
+.PHONY : src/Action.cpp.o
 
-Action.i: Action.cpp.i
-.PHONY : Action.i
+src/Action.i: src/Action.cpp.i
+.PHONY : src/Action.i
 
 # target to preprocess a source file
-Action.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/Action.cpp.i
-.PHONY : Action.cpp.i
+src/Action.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/src/Action.cpp.i
+.PHONY : src/Action.cpp.i
 
-Action.s: Action.cpp.s
-.PHONY : Action.s
+src/Action.s: src/Action.cpp.s
+.PHONY : src/Action.s
 
 # target to generate assembly for a file
-Action.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/Action.cpp.s
-.PHONY : Action.cpp.s
+src/Action.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/src/Action.cpp.s
+.PHONY : src/Action.cpp.s
 
-Customer.o: Customer.cpp.o
-.PHONY : Customer.o
+src/Customer.o: src/Customer.cpp.o
+.PHONY : src/Customer.o
 
 # target to build an object file
-Customer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/Customer.cpp.o
-.PHONY : Customer.cpp.o
+src/Customer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/src/Customer.cpp.o
+.PHONY : src/Customer.cpp.o
 
-Customer.i: Customer.cpp.i
-.PHONY : Customer.i
+src/Customer.i: src/Customer.cpp.i
+.PHONY : src/Customer.i
 
 # target to preprocess a source file
-Customer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/Customer.cpp.i
-.PHONY : Customer.cpp.i
+src/Customer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/src/Customer.cpp.i
+.PHONY : src/Customer.cpp.i
 
-Customer.s: Customer.cpp.s
-.PHONY : Customer.s
+src/Customer.s: src/Customer.cpp.s
+.PHONY : src/Customer.s
 
 # target to generate assembly for a file
-Customer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/Customer.cpp.s
-.PHONY : Customer.cpp.s
+src/Customer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/src/Customer.cpp.s
+.PHONY : src/Customer.cpp.s
 
-Studio.o: Studio.cpp.o
-.PHONY : Studio.o
+src/Studio.o: src/Studio.cpp.o
+.PHONY : src/Studio.o
 
 # target to build an object file
-Studio.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/Studio.cpp.o
-.PHONY : Studio.cpp.o
+src/Studio.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/src/Studio.cpp.o
+.PHONY : src/Studio.cpp.o
 
-Studio.i: Studio.cpp.i
-.PHONY : Studio.i
+src/Studio.i: src/Studio.cpp.i
+.PHONY : src/Studio.i
 
 # target to preprocess a source file
-Studio.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/Studio.cpp.i
-.PHONY : Studio.cpp.i
+src/Studio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/src/Studio.cpp.i
+.PHONY : src/Studio.cpp.i
 
-Studio.s: Studio.cpp.s
-.PHONY : Studio.s
+src/Studio.s: src/Studio.cpp.s
+.PHONY : src/Studio.s
 
 # target to generate assembly for a file
-Studio.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/Studio.cpp.s
-.PHONY : Studio.cpp.s
+src/Studio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/src/Studio.cpp.s
+.PHONY : src/Studio.cpp.s
 
-Trainer.o: Trainer.cpp.o
-.PHONY : Trainer.o
+src/Trainer.o: src/Trainer.cpp.o
+.PHONY : src/Trainer.o
 
 # target to build an object file
-Trainer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/Trainer.cpp.o
-.PHONY : Trainer.cpp.o
+src/Trainer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/src/Trainer.cpp.o
+.PHONY : src/Trainer.cpp.o
 
-Trainer.i: Trainer.cpp.i
-.PHONY : Trainer.i
+src/Trainer.i: src/Trainer.cpp.i
+.PHONY : src/Trainer.i
 
 # target to preprocess a source file
-Trainer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/Trainer.cpp.i
-.PHONY : Trainer.cpp.i
+src/Trainer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/src/Trainer.cpp.i
+.PHONY : src/Trainer.cpp.i
 
-Trainer.s: Trainer.cpp.s
-.PHONY : Trainer.s
+src/Trainer.s: src/Trainer.cpp.s
+.PHONY : src/Trainer.s
 
 # target to generate assembly for a file
-Trainer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/Trainer.cpp.s
-.PHONY : Trainer.cpp.s
+src/Trainer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/src/Trainer.cpp.s
+.PHONY : src/Trainer.cpp.s
 
-Workout.o: Workout.cpp.o
-.PHONY : Workout.o
+src/Workout.o: src/Workout.cpp.o
+.PHONY : src/Workout.o
 
 # target to build an object file
-Workout.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/Workout.cpp.o
-.PHONY : Workout.cpp.o
+src/Workout.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/src/Workout.cpp.o
+.PHONY : src/Workout.cpp.o
 
-Workout.i: Workout.cpp.i
-.PHONY : Workout.i
+src/Workout.i: src/Workout.cpp.i
+.PHONY : src/Workout.i
 
 # target to preprocess a source file
-Workout.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/Workout.cpp.i
-.PHONY : Workout.cpp.i
+src/Workout.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/src/Workout.cpp.i
+.PHONY : src/Workout.cpp.i
 
-Workout.s: Workout.cpp.s
-.PHONY : Workout.s
+src/Workout.s: src/Workout.cpp.s
+.PHONY : src/Workout.s
 
 # target to generate assembly for a file
-Workout.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/Workout.cpp.s
-.PHONY : Workout.cpp.s
+src/Workout.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/src/Workout.cpp.s
+.PHONY : src/Workout.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -282,24 +282,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Assignment1"
-	@echo "... Action.o"
-	@echo "... Action.i"
-	@echo "... Action.s"
-	@echo "... Customer.o"
-	@echo "... Customer.i"
-	@echo "... Customer.s"
-	@echo "... Studio.o"
-	@echo "... Studio.i"
-	@echo "... Studio.s"
-	@echo "... Trainer.o"
-	@echo "... Trainer.i"
-	@echo "... Trainer.s"
-	@echo "... Workout.o"
-	@echo "... Workout.i"
-	@echo "... Workout.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/Action.o"
+	@echo "... src/Action.i"
+	@echo "... src/Action.s"
+	@echo "... src/Customer.o"
+	@echo "... src/Customer.i"
+	@echo "... src/Customer.s"
+	@echo "... src/Studio.o"
+	@echo "... src/Studio.i"
+	@echo "... src/Studio.s"
+	@echo "... src/Trainer.o"
+	@echo "... src/Trainer.i"
+	@echo "... src/Trainer.s"
+	@echo "... src/Workout.o"
+	@echo "... src/Workout.i"
+	@echo "... src/Workout.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

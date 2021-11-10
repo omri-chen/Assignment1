@@ -82,37 +82,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/omri/CLionProjects/Assignment1/Action.cpp">
+		<Unit filename="/home/omri/CLionProjects/Assignment1/src/Action.cpp">
 			<Option target="Assignment1"/>
 		</Unit>
-		<Unit filename="/home/omri/CLionProjects/Assignment1/Action.h">
+		<Unit filename="/home/omri/CLionProjects/Assignment1/src/Customer.cpp">
 			<Option target="Assignment1"/>
 		</Unit>
-		<Unit filename="/home/omri/CLionProjects/Assignment1/Customer.cpp">
+		<Unit filename="/home/omri/CLionProjects/Assignment1/src/Studio.cpp">
 			<Option target="Assignment1"/>
 		</Unit>
-		<Unit filename="/home/omri/CLionProjects/Assignment1/Customer.h">
+		<Unit filename="/home/omri/CLionProjects/Assignment1/src/Trainer.cpp">
 			<Option target="Assignment1"/>
 		</Unit>
-		<Unit filename="/home/omri/CLionProjects/Assignment1/Studio.cpp">
+		<Unit filename="/home/omri/CLionProjects/Assignment1/src/Workout.cpp">
 			<Option target="Assignment1"/>
 		</Unit>
-		<Unit filename="/home/omri/CLionProjects/Assignment1/Studio.h">
-			<Option target="Assignment1"/>
-		</Unit>
-		<Unit filename="/home/omri/CLionProjects/Assignment1/Trainer.cpp">
-			<Option target="Assignment1"/>
-		</Unit>
-		<Unit filename="/home/omri/CLionProjects/Assignment1/Trainer.h">
-			<Option target="Assignment1"/>
-		</Unit>
-		<Unit filename="/home/omri/CLionProjects/Assignment1/Workout.cpp">
-			<Option target="Assignment1"/>
-		</Unit>
-		<Unit filename="/home/omri/CLionProjects/Assignment1/Workout.h">
-			<Option target="Assignment1"/>
-		</Unit>
-		<Unit filename="/home/omri/CLionProjects/Assignment1/main.cpp">
+		<Unit filename="/home/omri/CLionProjects/Assignment1/src/main.cpp">
 			<Option target="Assignment1"/>
 		</Unit>
 		<Unit filename="/home/omri/CLionProjects/Assignment1/CMakeLists.txt">
