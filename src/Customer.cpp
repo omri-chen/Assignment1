@@ -34,6 +34,7 @@ std::vector<int> SweatyCustomer::order(const std::vector<Workout> &workout_optio
     return orders;
 }
 
+
 CheapCustomer::CheapCustomer(std::string name, int id) : Customer(name, id) {
 
 }

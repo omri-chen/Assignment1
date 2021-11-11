@@ -23,8 +23,6 @@ public:
     bool isOpen();
 private:
     int capacity;
-    int id;
-    int id_counter;
     bool open;
     std::vector<Customer*> customersList;
     std::vector<OrderPair> orderList; //A list of pairs for each order for the trainer - (customer_id, Workout)

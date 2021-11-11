@@ -19,7 +19,7 @@ int Trainer::getCapacity() const {
 }
 
 void Trainer::addCustomer(Customer *customer) {
-    customersList.push_back(customer);
+        customersList.push_back(customer);
 }
 
 void Trainer::removeCustomer(int id) {
@@ -55,6 +55,8 @@ void Trainer::openTrainer() {
 
 void Trainer::closeTrainer() {
     open = false;
+    customersList.clear();
+    orderList.clear();
 }
 
 int Trainer::getSalary() {
@@ -67,6 +69,13 @@ int Trainer::getSalary() {
 
 bool Trainer::isOpen() {
     return open;
+}
+
+void
+Trainer::order(const int customer_id, const std::vector<int> workout_ids, const std::vector<Workout> &workout_options) {
+    for(auto workout_id : workout_ids){
+        orderList.push_back(std::make_pair(customer_id, workout_options.at(workout_id)));
+    }
 }
 
 
