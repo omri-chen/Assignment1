@@ -12,6 +12,7 @@ Trainer::Trainer(int t_capacity){
     open = false;
     customersList = std::vector<Customer*>();
     orderList = std::vector<OrderPair>();
+    salary = 0;
 }
 
 int Trainer::getCapacity() const {
@@ -28,7 +29,11 @@ void Trainer::removeCustomer(int id) {
             customersList.erase(customersList.begin()+i);
             break;
         }
-        //Need to update trainer's salary and order.
+    }
+    for(int i = 0; i < orderList.size(); i++){
+        if(orderList.at(i).first == id) {
+            orderList.erase(orderList.begin()+i);
+        }
     }
 }
 
@@ -60,10 +65,6 @@ void Trainer::closeTrainer() {
 }
 
 int Trainer::getSalary() {
-    int salary = 0;
-    for(int i = 0; i < orderList.size(); i++){
-        salary += orderList.at(i).second.getPrice();
-    }
     return salary;
 }
 
@@ -75,6 +76,15 @@ void
 Trainer::order(const int customer_id, const std::vector<int> workout_ids, const std::vector<Workout> &workout_options) {
     for(auto workout_id : workout_ids){
         orderList.push_back(std::make_pair(customer_id, workout_options.at(workout_id)));
+        salary += workout_options.at(workout_id).getPrice();
+    }
+}
+
+void Trainer::reduceSalary(int customer_id) {
+    for(auto wrk: orderList) {
+        if(wrk.first == customer_id){
+            salary -= wrk.second.getPrice();
+        }
     }
 }
 
