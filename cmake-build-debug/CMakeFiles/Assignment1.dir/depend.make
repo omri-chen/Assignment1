@@ -4,9 +4,13 @@
 CMakeFiles/Assignment1.dir/src/Action.cpp.o: \
  ../include/Action.h \
  ../include/Customer.h \
+ ../include/Studio.h \
+ ../include/Trainer.h \
  ../include/Workout.h \
  ../src/Action.cpp
 CMakeFiles/Assignment1.dir/src/Customer.cpp.o: \
+ ../include/Customer.h \
+ ../include/Workout.h \
  ../src/Customer.cpp
 CMakeFiles/Assignment1.dir/src/Studio.cpp.o: \
  ../include/Action.h \
@@ -16,11 +20,14 @@ CMakeFiles/Assignment1.dir/src/Studio.cpp.o: \
  ../include/Workout.h \
  ../src/Studio.cpp
 CMakeFiles/Assignment1.dir/src/Trainer.cpp.o: \
+ ../include/Action.h \
  ../include/Customer.h \
+ ../include/Studio.h \
  ../include/Trainer.h \
  ../include/Workout.h \
  ../src/Trainer.cpp
 CMakeFiles/Assignment1.dir/src/Workout.cpp.o: \
+ ../include/Workout.h \
  ../src/Workout.cpp
 CMakeFiles/Assignment1.dir/src/main.cpp.o: \
  ../include/Action.h \

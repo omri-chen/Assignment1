@@ -3,9 +3,14 @@
 //
 
 #include <vector>
+#include <algorithm>
 #include "../include/Customer.h"
 #include "../include/Workout.h"
 #include "../include/Trainer.h"
+#include "../include/Studio.h"
+using namespace std;
+
+typedef std::pair<int, Workout> OrderPair;
 
 Trainer::Trainer(int t_capacity){
     capacity = t_capacity;
@@ -24,16 +29,23 @@ void Trainer::addCustomer(Customer *customer) {
 }
 
 void Trainer::removeCustomer(int id) {
+
     for(int i = 0; i < customersList.size(); i++){
         if(customersList.at(i)->getId() == id){
             customersList.erase(customersList.begin()+i);
             break;
         }
     }
-    for(int i = 0; i < orderList.size(); i++){
-        if(orderList.at(i).first == id) {
-            orderList.erase(orderList.begin()+i);
+    vector<OrderPair> newOrderList;
+    for(int i = 0; i < orderList.size(); i++) {
+        OrderPair x = orderList.at(i);
+        if (x.first != id) {
+            newOrderList.push_back(x);
         }
+    } //THIS IS BULLSHIT WE NEED TO FIX
+    orderList.clear();
+    for(int i = 0; i < newOrderList.size(); i++){
+        orderList.push_back(newOrderList.at(i));
     }
 }
 

@@ -18,8 +18,10 @@ public:
 	const std::vector<BaseAction*>& getActionsLog() const; // Return a reference to the history of actions
     std::vector<Workout>& getWorkoutOptions();
     std::vector<std::string> splitInput(std::string input);
+    std::vector<std::string> splitComma(std::string input);
 
 private:
+    static int id_counter;
     bool open;
     std::vector<Trainer*> trainers;
     std::vector<Workout> workout_options;

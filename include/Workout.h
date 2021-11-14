@@ -14,6 +14,7 @@ public:
     std::string getName() const;
     int getPrice() const;
     WorkoutType getType() const;
+
 private:
 	const int id;
     const std::string name;
